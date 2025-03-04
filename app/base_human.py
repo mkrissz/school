@@ -1,9 +1,8 @@
 class Human():
-    def __init__(self, name, width, height, depth, icon, age, voice):
-        super().__init__(name, width, height, depth, icon, age, voice) 
+    def __init__(self, name, age, sex):
+        super().__init__(name, age, sex) 
         self.name = name
-        self.width = width
-        self.height = height
-        self.depth = depth
         self.age = age
-        self.voice = voice
+        self.sex = sex
+        self.male_names = [László, Péter, Gábor, István, András, József, Zoltán, Tamás, Attila, János, Ferenc, Mihály, Balázs, Ádám, Csaba, Béla, Sándor, György, Károly, Dávid]
+        self.female_names = [Anna, Katalin, Éva, Zsuzsanna, Eszter, Mária, Viktória, Noémi, Erika, Ildikó, Edit, Klára, Judit, Gabriella, Anikó, Andrea, Tímea, Ágnes, Brigitta, Dóra]
